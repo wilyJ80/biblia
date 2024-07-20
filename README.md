@@ -1,1 +1,1 @@
-- Printar os nomes dos elementos
+Fonte Bíblia JSON: https://github.com/thiagobodruk/biblia
