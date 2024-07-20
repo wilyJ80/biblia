@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_webpack_project=self.webpackChunkmy_webpack_project||[]).push([[333],{333:(e,t,c)=>{function n(e){const t=document.createElement("button");return t.style.fontSize="2rem",t.className="btn h-auto text-start p-4",e.appendChild(t),t}c.d(t,{createBtn:()=>n})}}]);
