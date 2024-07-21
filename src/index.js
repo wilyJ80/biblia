@@ -14,7 +14,7 @@ import './style.css';
   });
 
   function displayChapters(book) {
-    document.body.innerHTML = '';
+    updateView();
 
     let chapters = book['chapters'];
 
@@ -32,7 +32,7 @@ import './style.css';
   }
 
   function displayVerses(chapter) {
-    document.body.innerHTML = '';
+    updateView();
 
     let currentVerse = 1;
     chapter.forEach((verse) => {
@@ -40,5 +40,10 @@ import './style.css';
       verseBtn.textContent = `${currentVerse} ${verse}`;
       currentVerse++;
     });
+  }
+
+  function updateView() {
+    document.body.innerHTML = '';
+    window.scrollTo(0, 0);
   }
 })();
