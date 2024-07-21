@@ -9,6 +9,7 @@ Fonte Bíblia JSON: https://github.com/thiagobodruk/biblia
 
 # Todo:
 
+- [ ] Responsividade desktop
 - [ ] Botão voltar
 - [ ] Não guardar o JSON no bundle, realizar o fetch via GitHub API para diminuir o tamanho do bundle e aprimorar performance (espero)
 - [ ] Telinha de carregamento, em último caso, devido ao tempo de carregamento lento
