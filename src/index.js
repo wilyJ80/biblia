@@ -21,7 +21,7 @@ import './style.css';
     let currentChapter = 1;
     chapters.forEach((chapter) => {
       const chapterBtn = createBtn(document.body);
-      chapterBtn.textContent = currentChapter;
+      chapterBtn.textContent = currentChapter.toString();
       currentChapter++;
 
       chapterBtn.addEventListener('click', () => {

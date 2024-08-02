@@ -8,7 +8,8 @@
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "lint": "npx tsc"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +30,7 @@
     "prettier": "^3.3.3",
     "style-loader": "^4.0.0",
     "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.4",
     "webpack": "^5.93.0",
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4",
