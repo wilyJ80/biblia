@@ -9,6 +9,7 @@ Fonte Bíblia JSON: https://github.com/thiagobodruk/biblia
 
 # Todo:
 
+- [ ] Web Components
 - [ ] Responsividade desktop
 - [ ] Botão voltar
 
